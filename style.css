@@ -1,0 +1,43 @@
+.shopping-item {
+  width: 300px;
+  position: relative;
+  background-color: #fff;
+  height: 110px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  margin: 5px;
+  box-sizing: border-box;
+  padding-left: 110px;
+  padding-right: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.shopping-item>div {
+  line-height: 17px;
+  font-size: 12px;
+  padding-top: 10px;
+  color: #017ADB;
+  font-weight: bold;
+  cursor: pointer;
+  max-height: 68px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.shopping-item img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.shopping-item i {
+  color: #FFC94A;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 32px;
+}
